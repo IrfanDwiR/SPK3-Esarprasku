@@ -1,0 +1,11 @@
+{
+  "name": "projectpengaduan-irfan",
+  "version": "1.0.0",
+  "description": "Sistem Aspirasi & Pengaduan Siswa",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0"
+  }
+}

@@ -1,0 +1,28 @@
+### 1. Ambil Semua Data Siswa (GET)
+GET http://localhost:5000/siswa
+
+###
+
+### 2. Tambah Data Siswa Baru (POST)
+POST http://localhost:5000/siswa
+Content-Type: application/json
+
+{
+    "nis": "21245",
+    "nama": "Irfan Dwi Ramadianto",
+    "kelas" : "XI PPLG",
+    "password": "4420",
+    "confPassword": "4420"
+}
+
+###
+
+### 3. Tes Login Siswa (POST)
+# Sesuaikan dengan route: router.post('/login', loginSiswa)
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "nis": "21245",
+    "password": "4420"
+}
