@@ -12,6 +12,3 @@ yarn-error.log
 # Optional: ignore build artifacts
 dist/
 build/
-frontend/ 
-frontend/ 
-frontend/
